@@ -13,11 +13,11 @@
 		```
 	- Windows: ~~You should not use Windows, use Ubuntu on VirtualBox instead.~~ Download and install the [Windows installation package](https://git-scm.com/download/win); make sure to install (and use) git bash.
 3. Try git in the real world:
-	- Sign in or create an account on [Github](https://github.com) (it's free, and if you don't have one yet, you're already left behind).
+	- Sign in or create an account on [Github](https://github.com) (it's free, and you should already have one...).
 	- Create a new repository (note: with a free account, your're limited to public repos); select __Initialize this repository with a README__ to add a `README.md` file.
 	- On your computer, clone your new repository, edit the `README.md` to your choice, using the [Github markdown cheatsheet](https://guides.github.com/features/mastering-markdown/).
 	- Add/stage and commit the changes, and push them to your repository.
-	- Create and switch to a new branch (eg. `feature/add-licence`), and add a file `LICENSE` to it, containing the MIT open source software license. Not sure where to find it? Try [this link](http://bfy.tw/EF8t). For a real project, you may want to chose a different license (read more about licenses here: [https://opensource.org/licenses](https://opensource.org/licenses)).
+	- Create and switch to a new branch (eg. `feature/add-license`), and add a file `LICENSE` to it, containing the MIT open source software license. Not sure where to find it? Try [this link](http://bfy.tw/EF8t). For a real project, you may want to chose a different license (read more about licenses here: [https://opensource.org/licenses](https://opensource.org/licenses)).
 	- Push the branch; you should now be able to see it on Github.
 	- On Github, create a pull request and merge it to master.
 	- Back on your computer, checkout `master`, and pull the changes to update your local copy.
@@ -43,9 +43,10 @@
 2. On first launch, you may have to configure the default project structure and check your installed/configured JDKs:
 	![Configure default project structure](/assets/idea-01-ps.png)
 	![Verify installed/configured JDKs](/assets/idea-02-jdk.png)
-	![Check default JDK for projects](/assets/idea-03-jdk.png)
+	![Check default JDK for projects](/assets/idea-03-project-jdk.png)
 	You may also have to [configure the location of Gradle](https://www.jetbrains.com/help/idea/gradle.html), if not automatically configured.
 3. Select _Check out from Version Control: git_ and provide the repository URL; note that you can use either `https://hsro-inf-...` (and provide your Github username and password), or `git@github.com:hsro-inf-...` (with [SSH credentials as configured with Github](https://help.github.com/articles/connecting-to-github-with-ssh/)).
+	![Check out from VCS](/assets/idea-04-from-git.png)
 4. After checkout, it may take a while for Gradle to build and index the project.
 5. Look at the project's `build.gradle` and see how it configures for the use of [JUnit 5](http://junit.org/junit5/docs/current/user-guide/#running-tests-build-gradle).
 6. Look at the class `fhro.inf.prg3.a01.MyExampleClass` and read the javadoc comments. What is it's (very simple) purpopse?
