@@ -55,3 +55,9 @@
 
 > Note: We will go into details with `import static` and `@...` later, but go ahead and google what they do!
 
+
+## For the future expert
+
+The [original repository](https://hsro-inf-prg3.github.com/01a-tools) has [Tracis CI](https://travis-ci.org) integration enabled (see `.travis.yml`).
+On each push event, it will run a build process, which includes executing all tests.
+If one test fails, the build fails, which can help prevent merging in bugs from other branches or forks.
