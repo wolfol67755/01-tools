@@ -22,6 +22,7 @@
 	- On Github, create a pull request and merge it to master.
 	- Back on your computer, checkout `master`, and pull the changes to update your local copy.
 
+> Note: Since you'll be working on assignments together, it's a good idea to fork the official assignment repository, add your friend as a collaboratoer, and take it from there!
 
 > You should now know what it means if someone asks you: Can you please merge my PR into your master branch?
 
@@ -38,4 +39,18 @@
 
 ## Get familiar with IntelliJ
 
-Blub.
+1. Make sure you have the latest [IntelliJ IDEA](https://www.jetbrains.com/idea/) installed (it's [free for educational use](https://www.jetbrains.com/student/)!).
+2. On first launch, you may have to configure the default project structure and check your installed/configured JDKs:
+	![Configure default project structure](/assets/idea-01-ps.png)
+	![Verify installed/configured JDKs](/assets/idea-02-jdk.png)
+	![Check default JDK for projects](/assets/idea-03-jdk.png)
+	You may also have to [configure the location of Gradle](https://www.jetbrains.com/help/idea/gradle.html), if not automatically configured.
+3. Select _Check out from Version Control: git_ and provide the repository URL; note that you can use either `https://hsro-inf-...` (and provide your Github username and password), or `git@github.com:hsro-inf-...` (with [SSH credentials as configured with Github](https://help.github.com/articles/connecting-to-github-with-ssh/)).
+4. After checkout, it may take a while for Gradle to build and index the project.
+5. Look at the project's `build.gradle` and see how it configures for the use of [JUnit 5](http://junit.org/junit5/docs/current/user-guide/#running-tests-build-gradle).
+6. Look at the class `fhro.inf.prg3.a01.MyExampleClass` and read the javadoc comments. What is it's (very simple) purpopse?
+7. Look at the test class `fhro.inf.prg3.a01.MyExampleClassTest` and run the tests.
+8. **Fix `MyExampleClass` so that all test cases pass.**
+
+> Note: We will go into details with `import static` and `@...` later, but go ahead and google what they do!
+

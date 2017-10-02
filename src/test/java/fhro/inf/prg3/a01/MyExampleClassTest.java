@@ -1,7 +1,6 @@
 package fhro.inf.prg3.a01;
 
 import java.util.stream.IntStream;
-import java.util.stream.Stream;
 
 import static org.junit.jupiter.api.Assertions.*;
 
