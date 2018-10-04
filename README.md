@@ -5,7 +5,7 @@ _This is an assignment to the class [Programmieren 3](https://hsro-inf-prg3.gith
 
 ## Get familiar with Git
 
-1. Familiarize yourself with [git](https://git-scm.com) by completing this [interactive tutorial](https://try.github.io) in your browser.
+1. Familiarize yourself with [git](https://git-scm.com) by completing this [interactive tutorial](https://learngitbranching.js.org/) in your browser.
 2. Install git on your machine.
 	- Mac: Open `Terminal.app` and install the Apple Developer Tools by executing `xcode-select --install`.
 	- Linux: Use your distribution's package manager to install git; on Ubuntu, you'll run something like 
@@ -24,7 +24,7 @@ _This is an assignment to the class [Programmieren 3](https://hsro-inf-prg3.gith
 	- On Github, create a pull request and merge it to master.
 	- Back on your computer, checkout `master`, and pull the changes to update your local copy.
 
-> Note: Since you'll be working on assignments together, it's a good idea to fork the official assignment repository, add your friend as a collaboratoer, and take it from there!
+> Note: Since you'll be working on assignments together, it's a good idea to fork the official assignment repository, add your friend as a collaborator, and take it from there!
 
 > You should now know what it means if someone asks you: Can you please merge my PR into your master branch?
 
