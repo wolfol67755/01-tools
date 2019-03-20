@@ -47,12 +47,12 @@ _This is an assignment to the [Software Architecture](https://ohm-softa.github.i
 	![Verify installed/configured JDKs](/assets/idea-02-jdk.png)
 	![Check default JDK for projects](/assets/idea-03-project-jdk.png)
 	You may also have to [configure the location of Gradle](https://www.jetbrains.com/help/idea/gradle.html), if not automatically configured.
-3. Select _Check out from Version Control: git_ and provide the repository URL; note that you can use either `https://hsro-inf-...` (and provide your Github username and password), or `git@github.com:hsro-inf-...` (with [SSH credentials as configured with Github](https://help.github.com/articles/connecting-to-github-with-ssh/)).
+3. Select _Check out from Version Control: git_ and provide the repository URL; note that you can use either `https://github.com/ohm-softa/...` (and provide your Github username and password), or `git@github.com:ohm-softa/...` (with [SSH credentials as configured with Github](https://help.github.com/articles/connecting-to-github-with-ssh/)).
 	![Check out from VCS](/assets/idea-04-from-git.png)
 4. After checkout, it may take a while for Gradle to build and index the project.
 5. Look at the project's `build.gradle` and see how it configures for the use of [JUnit 5](http://junit.org/junit5/docs/current/user-guide/#running-tests-build-gradle).
-6. Look at the class `fhro.inf.prg3.a01.MyExampleClass` and read the javadoc comments. What is it's (very simple) purpopse?
-7. Look at the test class `fhro.inf.prg3.a01.MyExampleClassTest` and run the tests.
+6. Look at the class `MyExampleClass` and read the javadoc comments. What is it's (very simple) purpopse?
+7. Look at the test class `MyExampleClassTest` and run the tests.
 8. **Fix `MyExampleClass` so that all test cases pass.**
 
 > Note: We will go into details with `import static` and `@...` later, but go ahead and google what they do!
@@ -60,6 +60,6 @@ _This is an assignment to the [Software Architecture](https://ohm-softa.github.i
 
 ## For the future expert
 
-The [original repository](https://hsro-inf-prg3.github.com/01a-tools) has [Tracis CI](https://travis-ci.org) integration enabled (see `.travis.yml`).
+The [original repository](https://ohm-softa.github.com/01a-tools) has [Travis CI](https://travis-ci.org) integration enabled (see `.travis.yml`).
 On each push event, it will run a build process, which includes executing all tests.
 If one test fails, the build fails, which can help prevent merging in bugs from other branches or forks.

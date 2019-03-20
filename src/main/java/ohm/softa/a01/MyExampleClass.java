@@ -1,4 +1,4 @@
-package fhro.inf.prg3.a01;
+package ohm.softa.a01;
 
 public class MyExampleClass {
 	/**
